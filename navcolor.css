@@ -1,0 +1,61 @@
+.bg-navcolor{
+    background-color: rgb(188, 137, 49);
+    position: sticky;
+}
+.welcome {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    gap: 30px;
+    padding-left: 50px; /* Add left padding to align with the navbar */
+}
+.cruise {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+input::placeholder {
+    color: rgb(255, 255, 255); /* Set the placeholder text color to white */
+}
+input{
+    background-color: rgb(237, 141, 32); /* Make the input background transparent */
+    border: 1px solid rgb(255, 255, 255); /* Add a white border to the input */
+    color: rgb(255, 255, 255); /* Set the input text color to white */
+    padding: 10px; /* Add some padding for better appearance */
+    border-radius: 4px; /* Optional: Add rounded corners to the input */
+    font-size: 15px;
+}
+h3{
+    color: rgb(188, 137, 49);
+}
+.txt{
+    padding: 20px;
+    display:flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+}
+.explore-button{
+      background-color: rgb(188, 137, 49);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: medium;
+      cursor: pointer;
+      margin: 20px auto;
+      display: block;
+    }
+.explore-button:hover {
+      background-color: rgb(103, 15, 130);
+      color: rgb(16, 215, 36);
+      border: 2px solid rgb(199, 189, 48);
+      border-radius: 15px;
+      padding: 10px 20px;
+      font-size: medium;
+      cursor: pointer;
+      transform: scale(1.5);
+    }
+.h2{
+    color: rgb(188, 137, 49);
+}
