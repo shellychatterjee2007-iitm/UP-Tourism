@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- Bootstrap CSS CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- Bootstrap JS CDN -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="C:\Users\SHELLY\Desktop\UP_Tourism\Images\pacakges.png" style="width: 100%;" alt="packages">
+    
+    <h1>Find Your Tour</h1>
+    <div class="pacakages">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select City:
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ayodhya</a></li>
+            <li><a class="dropdown-item" href="#">Agra</a></li>
+            <li><a class="dropdown-item" href="#">Mathura</a></li>
+            <li><a class="dropdown-item" href="#">Varanasi</a></li>
+            <li><a class="dropdown-item" href="#">Gorakhpur</a></li>
+            <li><a class="dropdown-item" href="#">Jhasi</a></li>
+            <li><a class="dropdown-item" href="#">Chitrakoot</a></li>
+            <li><a class="dropdown-item" href="#">Lucknow</a></li>
+            <li><a class="dropdown-item" href="#">Gurugram</a></li>
+            <li><a class="dropdown-item" href="#">Nodia</a></li>
+            <li><a class="dropdown-item" href="#">Prayagraj</a></li>
+            <li><a class="dropdown-item" href="#">Bareily</a></li>
+            <li><a class="dropdown-item" href="#">Basti</a></li>
+            <li><a class="dropdown-item" href="#">Kanpur</a></li>
+            
+        </ul>
+        
+
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Select Tour Days:
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item active" href="#">1 Day</a></li>
+                <li><a class="dropdown-item" href="#">2 Days</a></li>
+                <li><a class="dropdown-item" href="#">3 Days</a></li>
+                <li><a class="dropdown-item" href="#">4 Days</a></li>
+                <li><a class="dropdown-item" href="#">5 Days</a></li>
+                <li><a class="dropdown-item" href="#">6 Days</a></li>
+        </ul>
+
+    </div>
+   
+
+    <div class="container my-5" >
+        <h1 class="mb-4 text-center">Find Your Tour</h1>
+
+        <div class="row g-4>
+            <--Card 1 -->
+            <div class="col-md-4">
+              <div class="card h-100" data-city="Prayagraj" data-days="3">
+                <img src="your-image1.jpg" class="card-img-top" alt="Prayagraj Tour">
+                <div class="card-body">
+                 <h5 class="card-title">3 Day Tour</h5>
+                 <p class="card-text">Prayagraj - Vindhyachal - Varanasi - Ayodhya Tour (03 Day 02 Night)</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4">
+             <div class="card h-100" data-city="Ayodhya" data-days="1">
+                <img src="your-image2.jpg" class="card-img-top" alt="Ayodhya Tour">
+                <div class="card-body">
+                 <h5 class="card-title">Same Day Tour</h5>
+                 <p class="card-text">Prayagraj - Ayodhya Tour (01 Day)</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+             </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4">
+             <div class="card h-100" data-city="Varanasi" data-days="5">
+                <img src="your-image3.jpg" class="card-img-top" alt="Varanasi Tour">
+                <div class="card-body">
+                 <h5 class="card-title">5 Day Tour</h5>
+                 <p class="card-text">Varanasi - Prayagraj - Lucknow - Varanasi</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+             </div>
+            </div>
+        </div>
+        </div>
+        <!-- Card 4
+            <div class="col-md-4">
+             <div class="card h-100" data-city="Gorakhpur" data-days="5">
+                <img src="your-image3.jpg" class="card-img-top" alt="Varanasi Tour">
+                <div class="card-body">
+                 <h5 class="card-title">5 Day Tour</h5>
+                 <p class="card-text">Varanasi - Prayagraj - Lucknow - Varanasi</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+             </div>
+            </div>
+        </div>
+        </div>
+        <!-- Card 3 -->
+            <div class="col-md-4">
+             <div class="card h-100" data-city="Lucknow" data-days="5">
+                <img src="your-image3.jpg" class="card-img-top" alt="Varanasi Tour">
+                <div class="card-body">
+                 <h5 class="card-title">5 Day Tour</h5>
+                 <p class="card-text">Varanasi - Prayagraj - Lucknow - Varanasi</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+             </div>
+            </div>
+        </div>
+        </div>
+        <!-- Card 5 -->
+            <div class="col-md-4">
+             <div class="card h-100" data-city="Agra" data-days="5">
+                <img src="your-image3.jpg" class="card-img-top" alt="Varanasi Tour">
+                <div class="card-body">
+                 <h5 class="card-title">5 Day Tour</h5>
+                 <p class="card-text">Varanasi - Prayagraj - Lucknow - Varanasi</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+             </div>
+            </div>
+        </div>
+        </div>
+        <!-- Card 6-->
+            <div class="col-md-4">
+             <div class="card h-100" data-city="Varanasi" data-days="5">
+                <img src="your-image3.jpg" class="card-img-top" alt="Varanasi Tour">
+                <div class="card-body">
+                 <h5 class="card-title">5 Day Tour</h5>
+                 <p class="card-text">Varanasi - Prayagraj - Lucknow - Varanasi</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+             </div>
+            </div>
+        </div>
+        </div>
+        <!-- Card 3 -->
+            <div class="col-md-4">
+             <div class="card h-100" data-city="Varanasi" data-days="5">
+                <img src="your-image3.jpg" class="card-img-top" alt="Varanasi Tour">
+                <div class="card-body">
+                 <h5 class="card-title">5 Day Tour</h5>
+                 <p class="card-text">Varanasi - Prayagraj - Lucknow - Varanasi</p>
+                 <a href="#" class="btn btn-primary">View Package</a>
+                </div>
+             </div>
+            </div>
+        </div>
+        </div>  -->
+
+    
+    
+</body>
+</html>
